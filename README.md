@@ -5,4 +5,5 @@ Chrome extension to easily view "most" any webpage wireframe.
 
 ## Installation
 
-See: (https://developer.chrome.com/extensions/getstarted#unpacked)
+1. Check out repository (no need to compile SASS)
+1. See: [Load unpacked Chrome extensions](https://developer.chrome.com/extensions/getstarted#unpacked)
