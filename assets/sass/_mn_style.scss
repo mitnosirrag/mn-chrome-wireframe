@@ -13,6 +13,7 @@ body {
             color: #000 !important;
             border: 1px solid #000 !important;
             border-top: 0 !important;
+            @include mn-wireframe-cross-browser(box-sizing,border-box);
         }
         img {
             @include mn-wireframe-cross-browser(filter,blur(30px) grayscale(100%) !important);
