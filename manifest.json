@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "MN Wireframe Viewer",
+    "description": "View the bones of \"most\" any site.",
+    "version": "1.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "background": {
+        "scripts": ["assets/js/mn_background.js"]
+    },
+    "browser_action": {
+        "default_icon": "assets/img/icon.png"
+    }
+}

@@ -1,0 +1,15 @@
+/* line 11, ../sass/_mn_style.scss */
+body.mn_show_wireframe * {
+  background: #fff !important;
+  color: #000 !important;
+  border: 1px solid #000 !important;
+  border-top: 0 !important;
+}
+/* line 17, ../sass/_mn_style.scss */
+body.mn_show_wireframe img {
+  -webkit-filter: blur(30px) grayscale(100%) !important;
+  -moz-filter: blur(30px) grayscale(100%) !important;
+  -ms-filter: blur(30px) grayscale(100%) !important;
+  -o-filter: blur(30px) grayscale(100%) !important;
+  filter: blur(30px) grayscale(100%) !important;
+}

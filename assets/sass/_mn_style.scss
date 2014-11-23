@@ -1,0 +1,21 @@
+@mixin mn-wireframe-cross-browser($propery, $value) {
+    -webkit-#{$propery}: $value;
+       -moz-#{$propery}: $value;
+        -ms-#{$propery}: $value;
+         -o-#{$propery}: $value;
+            #{$propery}: $value;
+}
+
+body {
+    &.mn_show_wireframe {
+        * {
+            background: #fff !important;
+            color: #000 !important;
+            border: 1px solid #000 !important;
+            border-top: 0 !important;
+        }
+        img {
+            @include mn-wireframe-cross-browser(filter,blur(30px) grayscale(100%) !important);
+        }
+    }
+}
